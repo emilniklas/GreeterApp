@@ -1,0 +1,11 @@
+namespace GreeterApp.
+
+import Emil/Emil.
+import GreeterApp/Person.
+
+export class EmilPerson {
+  is Person.
+  is Emil.
+
+  public name => "Emil Broman".
+}

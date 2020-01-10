@@ -1,0 +1,10 @@
+namespace GreeterApp.
+
+import GreeterApp/Greeter.
+import GreeterApp/Person.
+
+export class CoolGreeter {
+  is Greeter.
+
+  public greet: Person p => p name.
+}

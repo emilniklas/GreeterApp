@@ -1,0 +1,11 @@
+namespace GreeterApp.
+
+import GreeterApp/Greeter.
+import GreeterApp/CoolGreeter.
+import GreeterApp/EmilPerson.
+
+export class Main {
+  public run =>
+    let Greeter greeter = CoolGreeter.
+    greeter greet: EmilPerson.
+}

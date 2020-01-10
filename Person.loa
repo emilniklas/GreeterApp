@@ -1,5 +1,5 @@
 namespace GreeterApp.
 
-export class Person {
-  public age => 42.
+export partial class Person {
+  public name -> String.
 }

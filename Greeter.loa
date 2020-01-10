@@ -1,8 +1,7 @@
 namespace GreeterApp.
 
 import GreeterApp/Person.
-import Loa/Number.
 
 export partial class Greeter {
-  public greet: Person -> Number.
+  public greet: Person -> String.
 }
