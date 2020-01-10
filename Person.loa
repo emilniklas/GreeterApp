@@ -1,0 +1,5 @@
+namespace GreeterApp.
+
+export class Person {
+  public age => 42.
+}

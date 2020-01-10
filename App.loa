@@ -1,0 +1,18 @@
+namespace GreeterApp.
+
+import GreeterApp/Greeter.
+import GreeterApp/Person.
+
+export class Main {
+  public run =>
+    Main doIt: CoolGreeter.
+
+  public doIt: Greeter g =>
+    g greet: Person.
+}
+
+class CoolGreeter {
+  is Greeter.
+
+  public greet: Person p => p age.
+}
